@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motion_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/road_image2"
+        app:layoutDescription="@xml/activity_main_scene">
+
+       <!--<androidx.fragment.app.FragmentContainerView
+           android:id="@+id/container"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           tools:layout="@layout/fragment_1"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="parent"/>-->
+
+        <!--<Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="first"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"/>-->
+
+        <ImageButton
+            android:id="@+id/img_Button1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/baseline_battery_saver_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047"
+            android:contentDescription="Battery Saver"/>
+
+        <ImageButton
+            android:id="@+id/img_Button2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/baseline_bluetooth_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.219"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047"
+            android:contentDescription="Bluetooth"/>
+
+        <ImageButton
+            android:id="@+id/img_Button3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.40"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048"
+            android:src="@drawable/baseline_airplanemode_active_24"
+            android:contentDescription="Aeroplane mode"/>
+
+        <ImageButton
+            android:id="@+id/img_Button4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/baseline_flashlight_on_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.573"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047"
+            android:contentDescription="Torch"/>
+
+        <ImageButton
+            android:id="@+id/img_Button5"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/baseline_location_on_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.752"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047"
+            android:contentDescription="location"/>
+
+        <ImageButton
+            android:id="@+id/img_Button6"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/baseline_nightlight_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.926"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047"
+            android:contentDescription="night mode"/>
+
+        <ImageButton
+            android:id="@+id/img_Button7"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:contentDescription="auto-rotate"
+            android:src="@drawable/baseline_screen_rotation_alt_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.14" />
+
+        <ImageButton
+            android:id="@+id/img_Button8"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:contentDescription="wi-fi"
+            android:src="@drawable/baseline_signal_wifi_statusbar_4_bar_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.219"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.14" />
+
+        <ImageButton
+            android:id="@+id/img_Button9"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:contentDescription="hotspot"
+            android:src="@drawable/baseline_wifi_tethering_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.40"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.14"/>
+
+
+
+
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</layout>

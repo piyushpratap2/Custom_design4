@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/img_Button1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/baseline_battery_saver_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        android:contentDescription="Battery Saver"/>
+
+    <ImageButton
+        android:id="@+id/img_Button2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/baseline_bluetooth_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        android:contentDescription="Bluetooth"/>
+
+
+    <ImageButton
+        android:id="@+id/img_Button3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.80"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048"
+        android:src="@drawable/baseline_airplanemode_active_24"
+        android:contentDescription="Aeroplane mode"/>
+
+    <ImageButton
+        android:id="@+id/img_Button4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/baseline_flashlight_on_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        android:contentDescription="Torch"/>
+
+    <ImageButton
+        android:id="@+id/img_Button5"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/baseline_location_on_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        android:contentDescription="location"/>
+
+    <ImageButton
+        android:id="@+id/img_Button6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/baseline_nightlight_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.80"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        android:contentDescription="night mode"/>
+
+    <ImageButton
+        android:id="@+id/img_Button7"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31"
+        android:src="@drawable/baseline_screen_rotation_alt_24"
+        android:contentDescription="auto-rotate"/>
+
+    <ImageButton
+        android:id="@+id/img_Button8"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31"
+        android:src="@drawable/baseline_signal_wifi_statusbar_4_bar_24"
+        android:contentDescription="wi-fi"/>
+
+    <ImageButton
+        android:id="@+id/img_Button9"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.80"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31"
+        android:src="@drawable/baseline_wifi_tethering_24"
+        android:contentDescription="hotspot"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
